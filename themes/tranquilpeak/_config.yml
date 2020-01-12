@@ -59,12 +59,12 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/skout90
+            url: https://github.com/dongejeung
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: https://stackoverflow.com/users/5809394
-            icon: fab fa-stack-overflow
+        # stack_overflow:
+        #    title: global.stack_overflow
+        #    url: https://stackoverflow.com/users/5809394
+        #    icon: fab fa-stack-overflow
         # twitter:
         #     title: global.twitter
         #     url: https://twitter.com/
@@ -117,7 +117,7 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email: nowonlyhere@gmail.com
+    email: kdj00001@naver.com
     location: Seoul, Korea
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
@@ -187,7 +187,7 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname: kindrobot-disqus-com
+disqus_shortname: dongejeung
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 지쳐가는 5분에 인생을 거는 나
-subtitle: 공부한 것들을 나누는 블로그입니다.
-description: 개발 블로그
+title: 재미로 태어난 한량의 인생놀음~
+subtitle: 하고 싶은 말을 씨부립니다.
+description: 잡동사니
 keywords:
-author: Junho Nam
+author: KWANDON JOO
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://skout90.github.io
+url: https://dongejeung.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,7 +84,7 @@ node_sass:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/skout90/skout90.github.io
+  repo: https://github.com/dongejeung/dongejeung.github.io
     
 # Search Generator 
 search:
