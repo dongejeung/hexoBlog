@@ -26,7 +26,7 @@
                     <% site.tags.findOne({'name': tag.name}).posts.sort('date', 'desc').each(function(post) { %>
                         <li class="archive-post">
                             <a class="archive-post-title" href="<%- url_for(post.path) %>">
-                                <%= post.title || '(' + __('post.no_title') + ')' %>
+                                <%= post.title %>
                             </a>
                             <span class="archive-post-date">
                                 <%= ' - ' + post.date.locale(page.lang).format(__('date_format')).toLowerCase() %>

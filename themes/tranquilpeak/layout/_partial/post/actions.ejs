@@ -3,7 +3,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 <% if (post.prev) { %>
-                    <% var previousPostTitle = post.prev.title || '(' + __('post.no_title') + ')' %>
+                    <% var previousPostTitle = post.prev.title %>
                 <a
                     class="post-action-btn btn btn--default tooltip--top"
                     href="<%- url_for(post.prev.path) %>"
@@ -22,7 +22,7 @@
             </li>
             <li class="post-action">
                 <% if (post.next) { %>
-                    <% var nextPostTitle = post.next.title || '(' + __('post.no_title') + ')' %>
+                    <% var nextPostTitle = post.next.title %>
                 <a
                     class="post-action-btn btn btn--default tooltip--top"
                     href="<%- url_for(post.next.path) %>"

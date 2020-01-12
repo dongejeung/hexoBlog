@@ -49,7 +49,7 @@
                             href="<%- url_for(post.link) %>"
                             aria-label="<% __('global.open_post') %>: <%= post.title %>"
                         >
-                            <%= post.title || '(' + __('post.no_title') + ')' %>
+                            <%= post.title%>
                         </a>
                     <% } else { %>
                         <a
@@ -57,7 +57,7 @@
                             href="<%- url_for(post.path) %>"
                             aria-label="<% __('global.open_post') %>: <%= post.title %>"
                         >
-                            <%= post.title || '(' + __('post.no_title') + ')' %>
+                            <%= post.title %>
                         </a>
                     <% } %>
                 </h1>

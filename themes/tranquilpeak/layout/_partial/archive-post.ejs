@@ -33,7 +33,7 @@
                 <% lastMonth = currentMonth; %>
             <% } %>
             <li class="archive-post archive-day" data-date="<%= post.date.format('YYYYMMDD') %>">
-                <a class="archive-post-title" href="<%- url_for(post.path) %>"><%= post.title || '(' + __('post.no_title') + ')' %></a>
+                <a class="archive-post-title" href="<%- url_for(post.path) %>"><%= post.title %></a>
                 <span class="archive-post-date"><%= ' - ' + post.date.locale(page.lang).format(__('date_format')).toLowerCase() %></span>
             </li>
         <% }) %>
