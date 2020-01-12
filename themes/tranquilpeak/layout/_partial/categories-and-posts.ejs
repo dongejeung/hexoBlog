@@ -52,7 +52,7 @@ function displayCategoriesAndPosts(category) {
         var postNumberIdx = post.title.lastIndexOf('.') + 1;
 
         html += '<span class="archive-post-number">' + post.title.substring(0, postNumberIdx) + '</span>';
-        html += post.title.substring(postNumberIdx) || '(' + __('post.no_title') + ')';
+        html += post.title.substring(postNumberIdx);
         html += '</a>';
         html += '<span class="archive-post-date">';
         html += ' - ' + post.date.locale(page.lang).format(__('date_format'));
