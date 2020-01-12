@@ -8,7 +8,7 @@
 
 > npm i
 
-> cd themes/transquilpeak && npm run build
+> cd themes/transquilpeak && npm i && npm run build
 
 - 테마 수정시마다 아래 커맨드를 실행해야 적용됩니다.
 
