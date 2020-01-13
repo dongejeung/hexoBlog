@@ -1,5 +1,5 @@
 ---
-title: 냐눗돈의 첫 포스팅입니다.
+title: 냐눗돈의 첫 포스팅.
 date: 2020-01-12 19:28:10
 categories:
     - Web
