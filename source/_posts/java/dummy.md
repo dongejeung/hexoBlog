@@ -7,9 +7,5 @@ categories:
 
 # 제목
 
-<pre>
-
-</pre>
-
 ## Reference
 
